@@ -3565,10 +3565,15 @@ flat-cache@^1.2.1:
     rimraf "~2.6.2"
     write "^0.2.1"
 
-flatpickr@^4.5.1, flatpickr@^4.6.1:
+flatpickr@^4.5.1:
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.3.tgz#15a8b76b6e34e3a072861250503a5995b9d3bc60"
   integrity sha512-007VucCkqNOMMb9ggRLNuJowwaJcyOh4sKAFcdGfahfGc7JQbf94zSzjdBq/wVyHWUEs5o3+idhFZ0wbZMRmVQ==
+
+flatpickr@^4.6.13:
+  version "4.6.13"
+  resolved "https://registry.yarnpkg.com/flatpickr/-/flatpickr-4.6.13.tgz#8a029548187fd6e0d670908471e43abe9ad18d94"
+  integrity sha512-97PMG/aywoYpB4IvbvUJi0RQi8vearvU0oov1WW3k0WZPBMrTQVqekSX5CjSG/M4Q3i6A/0FKXC7RyAoAUUSPw==
 
 flush-write-stream@^1.0.0:
   version "1.1.1"
@@ -8320,12 +8325,12 @@ vue-eslint-parser@^2.0.3:
     esquery "^1.0.0"
     lodash "^4.17.4"
 
-vue-flatpickr-component@^8.1.1:
-  version "8.1.4"
-  resolved "https://registry.yarnpkg.com/vue-flatpickr-component/-/vue-flatpickr-component-8.1.4.tgz#da68dd471c021d61846ca9db92a12b56df085dd9"
-  integrity sha512-+7fQITZAPs42l4q0VUDXyqJ5UK0HPTescSLbRB8JbwVJXFjYv9i79w0MjYHwOL8S6UKh27zxZ/+yZBhgmv+nbg==
+vue-flatpickr-component@^8.1.8:
+  version "8.1.8"
+  resolved "https://registry.yarnpkg.com/vue-flatpickr-component/-/vue-flatpickr-component-8.1.8.tgz#900edca7c0192ecabe0bf6d7e415447ae4eca1e0"
+  integrity sha512-zarr0YXh1pTRjhqJp52PdN4Hk/Yu7XGA+pOuCyX4dVk2KYwck1ocLrvASdNJgBrRXvhVGYpmL8GYfsAhv5Hn5Q==
   dependencies:
-    flatpickr "^4.6.1"
+    flatpickr "^4.6.13"
 
 vue-functional-data-merge@^3.1.0:
   version "3.1.0"
